@@ -805,7 +805,7 @@ body {
     border-radius: 50%;
     transition: all 0.5s;
 }
-.contact .info .item .icon:hover {
+.contact .info .item:hover .icon{
     background-color: #111;
     color: #fff;
 }
@@ -832,7 +832,7 @@ body {
 }
 .contact form .form-group textarea{
     width: 100%;
-    max-height: 160px;
+    height: 160px;
     border: 0;
     border-radius: 5px;
     padding: 10px;
